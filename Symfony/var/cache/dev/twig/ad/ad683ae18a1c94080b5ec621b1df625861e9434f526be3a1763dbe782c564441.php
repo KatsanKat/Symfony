@@ -15,11 +15,11 @@ class __TwigTemplate_2e3363ce91ae51e30e434ccc0bd3988f9e46386937cacc7ece89b3cacc3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f98f250b2f0c7ffb2931e9fc73604d999574b7a1f57a2ecf47e30979878cd443 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_f98f250b2f0c7ffb2931e9fc73604d999574b7a1f57a2ecf47e30979878cd443->enter($__internal_f98f250b2f0c7ffb2931e9fc73604d999574b7a1f57a2ecf47e30979878cd443_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle:Advert:index.html.twig"));
+        $__internal_07aa04a2556dbddd11a2f4af451949619f0edc922d5118c7713c6fd1ae27af3e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_07aa04a2556dbddd11a2f4af451949619f0edc922d5118c7713c6fd1ae27af3e->enter($__internal_07aa04a2556dbddd11a2f4af451949619f0edc922d5118c7713c6fd1ae27af3e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle:Advert:index.html.twig"));
 
-        $__internal_14fc6baf9d04ae165f4fdbbe76ed4986822379feb0bff2eed7bd71d53cc6cf2d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_14fc6baf9d04ae165f4fdbbe76ed4986822379feb0bff2eed7bd71d53cc6cf2d->enter($__internal_14fc6baf9d04ae165f4fdbbe76ed4986822379feb0bff2eed7bd71d53cc6cf2d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle:Advert:index.html.twig"));
+        $__internal_8ca9a8b471943bb46f78e147cbb14b0e9605b8d0fdcd05041f746e01821ae849 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8ca9a8b471943bb46f78e147cbb14b0e9605b8d0fdcd05041f746e01821ae849->enter($__internal_8ca9a8b471943bb46f78e147cbb14b0e9605b8d0fdcd05041f746e01821ae849_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle:Advert:index.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -29,10 +29,7 @@ class __TwigTemplate_2e3363ce91ae51e30e434ccc0bd3988f9e46386937cacc7ece89b3cacc3
     <title>Advert - Symfony</title>
   </head>
   <body>
-    <h1>Bonjour ";
-        // line 8
-        echo twig_escape_filter($this->env, ($context["nom"] ?? $this->getContext($context, "nom")), "html", null, true);
-        echo " !</h1>
+    <h1>Bonjour !</h1>
     <hr>
 
     <p>
@@ -45,10 +42,10 @@ class __TwigTemplate_2e3363ce91ae51e30e434ccc0bd3988f9e46386937cacc7ece89b3cacc3
 </html>
 ";
         
-        $__internal_f98f250b2f0c7ffb2931e9fc73604d999574b7a1f57a2ecf47e30979878cd443->leave($__internal_f98f250b2f0c7ffb2931e9fc73604d999574b7a1f57a2ecf47e30979878cd443_prof);
+        $__internal_07aa04a2556dbddd11a2f4af451949619f0edc922d5118c7713c6fd1ae27af3e->leave($__internal_07aa04a2556dbddd11a2f4af451949619f0edc922d5118c7713c6fd1ae27af3e_prof);
 
         
-        $__internal_14fc6baf9d04ae165f4fdbbe76ed4986822379feb0bff2eed7bd71d53cc6cf2d->leave($__internal_14fc6baf9d04ae165f4fdbbe76ed4986822379feb0bff2eed7bd71d53cc6cf2d_prof);
+        $__internal_8ca9a8b471943bb46f78e147cbb14b0e9605b8d0fdcd05041f746e01821ae849->leave($__internal_8ca9a8b471943bb46f78e147cbb14b0e9605b8d0fdcd05041f746e01821ae849_prof);
 
     }
 
@@ -57,14 +54,9 @@ class __TwigTemplate_2e3363ce91ae51e30e434ccc0bd3988f9e46386937cacc7ece89b3cacc3
         return "OCPlatformBundle:Advert:index.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  34 => 8,  25 => 1,);
+        return array (  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -84,7 +76,7 @@ class __TwigTemplate_2e3363ce91ae51e30e434ccc0bd3988f9e46386937cacc7ece89b3cacc3
     <title>Advert - Symfony</title>
   </head>
   <body>
-    <h1>Bonjour {{ nom }} !</h1>
+    <h1>Bonjour !</h1>
     <hr>
 
     <p>

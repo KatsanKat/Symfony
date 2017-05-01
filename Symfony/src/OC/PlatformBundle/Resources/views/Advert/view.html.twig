@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>View {{ id }} - Symfony</title>
+  </head>
+  <body>
+    <h1>Affichage de l'annonce n°{{ id }}</h1>
+
+    <div>
+      {% for message in app.session.flashbag.get('info') %}
+      <p>Message Flash : {{ message }}</p>
+      {% endfor %}
+    </div>
+
+    <p>
+      ici nous pourrions lire l'annonce ayant comme id : {{ id }}<br>
+      Mais pour l'instant nous ne savons pas encore le faire, cela viendra !
+    </p>
+    {# <p>Tag éventuel : {{ tag }}</p> #}
+
+
+  </body>
+</html>
